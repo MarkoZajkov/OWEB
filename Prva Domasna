@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Prva Domasna</title>
+	</head>
+	<body style="width:35% ;">
+	<fieldset>
+		<h1> Dado Tea Lunch Special </h1>
+		<p> Monday through Friday <br>
+			11am - 3pm <br>
+			$9.95 plus tax </p>
+		<p> Includes sandwich, snack, and drink </p>
+		
+		<form method = "post" action = "" >
+		<fieldset>
+				<legend>Order Info</legend>
+			<p>
+				<strong> Name </strong><br>
+				<input name= "name" id= "name"  type= "text" size = "15" maxlength = "30">
+			</p>
+			<p>
+				<input name= "here" id= "here" type= "radio" value="Here" >	<label> Here </label><br>
+				<input name= "here" id= "togo" type= "radio" value="ToGo" >	<label> To Go </label>
+			</p>
+		</fieldset>	
+		<fieldset>
+				<legend>Sandwiches</legend>
+			<p>
+				<strong> Monday </strong><br>
+				<input name= "monday" id= "tomato" type= "radio" value="Tomato" >	<label> Tomato Mozzarella </label><br>
+				<input name= "monday" id= "chicken" type= "radio" value="Chicken" >	<label> Chicken Salad </label>
+			</p>
+			<p>
+				<strong> Tuesday </strong><br>
+				<input name= "tuesday" id= "greeksalad" type= "radio" value="GreekSalad" >	<label> Greek Salad Wrap </label><br>
+				<input name= "tuesday" id= "toto" type= "radio" value="Toto" >	<label> Toto Wrap </label>
+			</p>
+			<p>
+				<strong> Wednesday </strong><br>
+				<input name= "wednesday" id= "redpepper" type= "radio" value="RedPepper" >	<label> Red Pepper Hummus </label><br>
+				<input name= "wednesday" id= "turkey" type= "radio" value="Turkey" >	<label> Rosted Turkey </label>
+			</p>
+			<p>
+				<strong> Thursday </strong><br>
+				<input name= "thursday" id= "carrot" type= "radio" value="Carrot" >	<label> Carrot-Ginger Hummus Wrap </label><br>
+				<input name= "thursady" id= "egg" type= "radio" value="Egg" >	<label> Egg Salad </label>
+			</p>
+			<p>
+				<strong> Friday </strong><br>
+				<input name= "friday" id= "dado" type= "radio" value="Dado" >	<label> Dado Wrap </label><br>
+				<input name= "friday" id= "tuna" type= "radio" value="Tuna" >	<label> Tuna Salad </label>
+			</p>
+			<hr>
+			<p>
+				<input name= "gluten" id= "gluten" type= "checkbox" value="GlutenFree" >	<label> Gluten Free Bread (75&#162; extra)</label><br>
+			</p>
+		</fieldset>	
+		<fieldset>
+				<legend>Snacks</legend>
+			<p>
+				<strong> Snacks </strong><br>
+				<input name= "snacks" id= "apple" type= "radio" value="Apple" >	<label for="apple"> Apple </label><br>
+				<input name= "snacks" id= "banana" type= "radio" value="Banana" >	<label for="banana"> Banana </label><br>
+				<input name= "snacks" id= "chips" type= "radio" value="Chips" >	<label for="chips"> Potato Chips </label>
+			</p>
+		</fieldset>	
+		<fieldset>
+				<legend>Drinks</legend>
+			<p>
+				<strong> Drinks </strong><br>
+				<select name = "drinks" id="drinks">
+					<option selected> Hot Black Tee - Keemun</option>
+					<option> Iced Black Tee - Keemun </option>
+					<option> Hot Green Tee - Sencha </option>
+					<option> Iced Green Tee - Sencha </option>
+					<option> Organic Pepermint</option>
+					<option> Coffee </option>
+					<option> Iced Coffee </option>
+				</select>
+			</p>
+			<hr>
+			<p>
+				<input name= "largedrink" id= "largedrink" type= "checkbox" value= "LargeDrink" ><label> Large drink (75&#162; extra </label>
+			</p>
+		</fieldset>
+			<p>
+				<input name= "placeorder" id= "placeorder" type= "submit" value= "Place Order">
+			</p>
+		</form>
+	</fieldset>	
+	</body>
+</html>
