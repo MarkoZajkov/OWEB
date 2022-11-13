@@ -1,0 +1,90 @@
+var rabbit_position = 1;
+var turttle_position = 1;
+var rabbit_image = null;
+var turttle_image = null;
+var el = document.getElementById("seconds-display");
+var counter = 1;
+var myInterval;
+
+function start_race(){
+	el = document.getElementById("seconds-display"); 
+  	//rabbit_image = document.getElementById("rabbit");     //Ovie promenlivi se koristat vo funkcija move_image so cel da se pridvizat slikite,
+  	//turttle_image = document.getElementById("turttle");	//iskomentirani  se bidejki dokolku se implementirani stranta zaglavuva.
+	myInterval = setInterval(final, 1000);
+};
+function final(){
+	if(rabbit_position > 70 || turttle_position > 70){
+		clearInterval(myInterval);
+		if(rabbit_position > 70)
+		{
+			alert("Rabbit");
+		    location.reload();
+		}
+			
+		else 
+		{
+			alert ("Turttle");
+		    location.reload();
+		}
+			
+	}
+	else{
+		movement();
+	}
+}
+function movement(){
+	++counter;
+	var randomNumber = Math.ceil(Math.random()*10);
+	rabbit(randomNumber);
+	turttle(randomNumber);
+	el.innerText = "Time: " + counter + " seconds.";
+	move_image(rabbit_position, turttle_position);
+	while(counter != 1){
+		if(rabbit_position == turttle_position)
+			alert("OUCH");
+	};
+}
+function rabbit(ranNum){
+if(ranNum == 1 || ranNum == 2){
+	rabbit_position = rabbit_position;
+};
+if(ranNum == 3 || ranNum == 4){
+	rabbit_position = rabbit_position + 9;
+};
+if(ranNum == 5){
+	if(rabbit_position<=9)
+		rabbit_position = 1;
+	else
+	rabbit_position = rabbit_position-9;
+};
+if(ranNum > 5 && ranNum < 9){
+	rabbit_position = rabbit_position + 1;
+};	
+if(ranNum == 9 || ranNum == 10){
+	if(rabbit_position<=2)
+		rabbit_position = 1;
+	else
+	rabbit_position = rabbit_position-2;
+};
+}
+function turttle(ranNum){
+	if(ranNum < 6){
+	turttle_position = turttle_position + 3;
+};	
+if(ranNum == 6 || ranNum == 7){
+	if(turttle_position<=6)
+		turttle_position = 1;
+	else
+	turttle_position = turttle_position-6;
+};
+if(ranNum > 7){
+	turttle_position = turttle_position + 1;
+};	
+
+}
+function move_image(r_pos, t_pos){
+	var r_mar = r_pos*10;
+	var t_mar = t_pos*10;
+	rabbit_image.style.left = r_mar + "px";
+	turttle_image.style.left = t_mar + "px";
+};
