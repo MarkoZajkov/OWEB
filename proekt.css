@@ -1,0 +1,254 @@
+@charset "utf-8";
+body{ 
+	overflow-y:
+	scroll; 
+	padding: 0;
+	margin: 0; 
+	font-family: Arial; 
+	font-size: 26px; 
+	background-color: #FEFD98; 
+}
+
+body table{
+	width: 80%;
+	border-width: 0px;
+}
+
+body th, td{
+	padding: 10px;
+}
+
+
+
+#textpar{
+	font-size: 16px;
+}
+
+
+#nav{ 
+	background-color: #F5F0BF; 
+	position: fixed; 
+	width: 100%; 
+	top: 0; 
+}
+
+#nav-wrapper{ 
+	
+	float: center;
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: left;
+	padding: 10px;
+}
+
+
+#nav-kraj{
+	background-color: black;
+	height: 1px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px;
+}
+
+#nav ul{ 
+	list-style-type: none; 
+	padding: 0; margin: 0; 
+}
+	
+#nav ul li{ 
+	display: inline-block;
+	font-family: Arial;
+}
+	
+#nav ul li:hover{
+	background-color: #F5F0BF;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+	
+#nav ul li a,visited{ 
+	color: #000000; 
+	display: block; 
+	padding: 15px; 
+	text-decoration: none; 
+}
+
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #F5F0BF;
+    border: 5px solid #F5F0BF;
+    border-top: 0;
+	margin-left: -5px;
+}
+
+#nav ul ul li {
+	display: block;
+	position: relative;
+}
+
+#nav button:hover #nav-dropdown{
+	display: block;
+}
+
+#nav-dropdown{
+	display: none;
+}
+
+
+#nav button {
+  background-color: #616161;
+  border: none;
+  color: white;
+  padding: 6px 30px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#nav button:hover{
+	background-color: #DBDBDA;
+	color: black;
+	display: block;
+} 
+
+
+.wrapper{
+	
+	float: center;
+	width: 60%; 
+	margin: 0 auto; 
+	text-align: left;
+	padding: 10px;
+}
+
+.content{
+	background-color: #C1C1C1;
+	border: 3px solid #212121;
+	padding: 20px;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.header{
+	background-color: #C1C1C1;
+	border: 3px solid #212121;
+	padding: 15px;
+	margin: 80px 0 0 0;
+	text-align: center;
+}
+
+#header h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: Verdana;
+}
+
+#content h1{
+	text-align: left;
+}
+
+#content h2{
+	text-align: left;
+}
+
+#content h3{
+	text-align: left;
+}
+
+#content p{
+	text-align: left;
+}
+#content li{
+	text-align: left;
+}
+
+#pictures li{
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.35);
+}
+
+
+.droptext {
+
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+.active, .droptext:hover{
+	background-color: #ccc;
+}
+
+.blogtext {
+	padding: 0.18px;
+	font-size: 16px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+}
+
+.likeButton{
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 15%;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	transition: 0.4s;
+}
+
+.active, .likeButton:hover{
+	background-color: #ccc;
+}
+
+.commentSection1 {
+	padding: 0.18px;
+	font-size: 10px;
+	display: block;
+	background-color: white;
+	overflow: hidden;
+}
+.input-name{
+	height: 22px;
+}
+
+.input-date{
+	height: 40px;
+	width: 118px;
+}
+.survey-buttons{
+	height: 40px;
+	width: 118px;
+}
+.post-buttons{
+	height: 40px;
+	width: 118px;
+}
+.picture-table{
+	margin-left: auto;
+	margin-right: auto;
+}

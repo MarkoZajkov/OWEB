@@ -1,0 +1,333 @@
+    <!doctype html>
+
+    <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title>Personal site</title>
+
+            <link type="text/css" rel="stylesheet" href="proekt.css"/>
+        </head>
+
+
+        <body>
+
+            <div id="nav">
+                <div id="nav-wrapper">
+                    <ul>
+                        <li>
+                            <button><a href="#home">Home</a></button>
+                        </li>
+                        <li>
+                            <button><a href="#interests">Interests</a></button>
+                        </li>
+                        <li>
+                            <button><a href="#gallery">Gallery</a></button>
+                        </li>
+                        <li>
+                            <button><a href="#blog">Blog</a></button>
+                        </li>
+                        <li>
+                            <button><a href="#contact">Contact</a></button>
+                        </li>
+                        <li>
+                            <button><a href="#survey">Survey</a></button>
+                        </li>
+                    </ul>
+                </div>
+                <div id="nav-kraj"></div>
+            </div>
+
+            <div class="wrapper">
+                <div class="header">
+                    <h1 id="home">Home</h1>
+                </div>
+                <div class="content">
+
+                    <img src="/home/marko/Desktop/IMG_20210909_211006_816.jpg" width="909" height="614" alt="MyPhoto"/>
+                    <h3>Short text about me:</h3>
+                    <p>
+                        I am Marko Zajkov I have 22 years and I am currently a student at the Faculty of Electrical
+                        Engineering and Information Technologies. Apart from studying, I spend significant time doing home 
+                        projects and DIYing. I also love cooking and experimenting in the kitchen. Besides these hobbies, I love 
+                        traveling, photography and I find great pleasure in outdoor activities and extreme sports, such as mountain 
+                        biking, hiking, skydiving, paragliding, rock climbing, and many others. 
+                    </p>
+                    <h3>Short CV:</h3>
+
+                    <ul>
+
+                        <li><i>Birthday, Place of Birth:<br>
+                        14.11.2000, Skopje, N.Macedonia</i></li>
+                        <li><i>Current University:<br>
+                            Ss. Cyril and Methodius University in Skopje</i></li>
+                        <li><i>Current Major Study:<br>
+                            Computer Hardware Engineering and Electronics</i></li>
+                        <li><i>Past education:<br>
+                            Gymnasium SUGS Orce Nikolov / High School Graduation</i></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="header">
+                    <h1 id="interests">Interests</h1>
+                </div>
+                <div class="content">
+                    <h2>Movies</h2>
+                    <p>When it comes movies, I am a big fan of physiological, mystery and thriller movies that will 
+                        keep you on the edge of your seat. Some of my all time favourites are: 
+                        <a href="https://www.imdb.com/title/tt1130884/">Shutter Island</a>, 
+                        <a href="https://www.imdb.com/title/tt0209144/">Memento</a>, 
+                        <a href="https://www.imdb.com/title/tt0482571/">The Prestige</a>
+                    </p>
+
+                    <div>
+
+                        <table class="picture-table">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://www.youtube.com/watch?v=v8yrZSkKxTA">
+                                        <img src="https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Shutter Island" width="245" height="363"></a>
+                                </td>
+
+                                <td>
+                                    <a href="https://www.youtube.com/watch?v=4CV41hoyS8A">
+                                    <img src="https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="Memento" width="245" height="363"></a>
+                                </td>
+
+
+                                <td>
+                                    <a href="https://www.youtube.com/watch?v=RLtaA9fFNXU">
+                                    <img src="https://m.media-amazon.com/images/I/51wILNNX2VL._AC_SY580_.jpg" alt="The Prestige" width="245" height="363"></a>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h2>Music</h2>
+                    <p>To find out more about my taste in music add me on 
+                    <a href="https://open.spotify.com/user/31lxkk5rnntzay2rcbem4imerbum?si=2c7a841022094ed9"> Spotify!</a></p>
+
+                    <h2>Food</h2>
+                    <p> Being a foodie and gastronome, I enjoy eating, as much as i enojy cooking<br>
+                        I find inspiration for recipies from profesional chefs, but also from home cooks,<br>
+                        such as  <a href="https://open.spotify.com/user/31lxkk5rnntzay2rcbem4imerbum?si=2c7a841022094ed9">
+                        Alex The French Guy</a> and 
+                        <a href="https://open.spotify.com/user/31lxkk5rnntzay2rcbem4imerbum?si=2c7a841022094ed9"> Joshua Weissman</a><br>
+                    </p>
+                    <div>
+                        <table class="picture-table">
+                            <tbody>
+                             <tr>
+                                <td>
+                                    <img src="https://t3.ftcdn.net/jpg/05/39/52/06/360_F_539520671_1sh24uHTr5cSSkPTrm8F88zuIfqbWM7G.jpg" width="500" height="350"/>
+                                </td>
+    
+                                <td>
+                                    <img src="https://c.files.bbci.co.uk/12396/production/_116864647__b5t5223.jpg" width="570" height="350"/>
+                                </td>
+                             </tr>
+                            </tbody>
+                        </table>
+                      
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+
+                <div class="header">
+                    <h1 id="gallery">Gallery</h1>
+                </div>
+
+                <div class="content">
+                    <p>Check out some of my photos<br></p>
+
+                                <img src="/home/marko/Desktop/77398030_594963784646551_3078758777923585120_n.jpg"
+                                    width="540" height="405" alt="Photo of me"/>
+
+                                <p><span id="numberOfLikes">0</span> people like this.</p>
+
+                                <button class="likeButton" onclick="likeImage()">Like</button>
+
+                                <input type="text" id="commentValue" placeholder="Comment...">
+                                <button class="likeButton" onclick="postComment()">Post</button>
+                                <p id="commentContainer"></p>
+
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+                <div class="header">
+                    <h1 id="blog">Blog</h1>
+                </div>
+                <div class="content">
+                    <input id="dateInput" type="date" class="input-date"/><br/>
+
+                    <textarea id="blogText" rows="10" cols="100" name="suggestion" placeholder="Enter blog text..."></textarea><br/>
+                    <button onclick="addNewBlog()" class="post-buttons">Post</button>
+
+                    <br>
+                    <div id="newText"></div>
+
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+                <div class="header">
+                    <h1 id="contact">Contact</h1>
+                </div>
+                <div class="content">
+                    <address>
+                        Telephone: +389 76977885<br><br>
+                        Email: <a href="mailto:markozajkov00@gmail.com">markozajkov00@gmail.com</a><br><br>
+                        <a href="https://www.facebook.com/marko.zajkov.50"><img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="FB" width="64" height="40"></a>
+                        <a href="https://www.instagram.com/markozajkov/"><img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png" alt="IG" width="40" height="40"></a>
+                    </address>
+                </div>
+
+            </div>
+
+            <div class="wrapper">
+                <div class="header">
+                    <h3 id="survey">Survey section</h3>
+                </div>
+                <div class="content">
+                    <p>Please fill out this short survey</p>
+
+                    <form name="surveyForm" action="" onsubmit="submitSurvey()">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name" class="input-name">
+                        <br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" class="input-name">
+                        <br><br>
+                        Gender:<br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">other</label><br>
+                        <br>
+                        Rate this site:<br>
+                        <input type="range" min="1" max="10" value="5" class="slider" id="myRange"><br>
+                        Suggestions:<br>
+                        <textarea rows="7" cols="50" name="suggestion" placeholder="type here.."></textarea>
+                        <br><input type="submit" value="Submit" class="survey-buttons"><input type="reset" class="survey-buttons">
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div><p id="textpar"> All rights reserved. </p> </div>
+        </body>
+
+        <script>
+            let drp = document.getElementsByClassName("droptext");
+
+            for (let i = 0; i < drp.length; i++) {
+                drp[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    const panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+
+            let newTexts = 0;
+
+            function addNewBlog() {
+                const text = document.getElementById("blogText").value;
+                const date = document.getElementById("dateInput").value;
+
+                let result = "<button class='droptext'>" + date + "</button><div class='blogtext'><p>" + text + "</p></div>";
+                document.getElementById("newText").innerHTML += result;
+                drp = document.getElementsByClassName("droptext");
+
+                newTexts++;
+
+                for (i = 0; i < newTexts; i++) {
+                    drp[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        const panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                        } else {
+                            panel.style.display = "block";
+                        }
+                    });
+                }
+            }
+
+            if (localStorage.getItem("numberOfLikes")) {
+                document.getElementById("numberOfLikes").innerHTML = localStorage.numberOfLikes;
+            } else {
+                document.getElementById("numberOfLikes").innerHTML = "0";
+            }
+
+            function likeImage() {
+                if (!localStorage.getItem("numberOfLikes")) {
+                    localStorage.setItem("numberOfLikes", "0");
+                }
+
+                const previousNumberOfLikes = localStorage.getItem("numberOfLikes");
+
+                const numberOfLikes = 1 + Number(previousNumberOfLikes);
+                document.getElementById("numberOfLikes").innerHTML = numberOfLikes.toString();
+
+                localStorage.numberOfLikes = numberOfLikes;
+            }
+
+            function submitSurvey() {
+                const x = document.forms["surveyForm"]["fname"].value;
+                if (x === "") {
+                    alert("Please enter your name!")
+                    return false;
+                } else {
+                    alert("Your survey has been submitted!")
+                }
+            }
+
+            let comments = "";
+            let randomUser;
+
+            if (localStorage.getItem("comments")) {
+                document.getElementById("commentContainer").innerHTML = localStorage.komentari;
+            } else {
+                document.getElementById("commentContainer").innerHTML = "";
+            }
+
+            function postComment() {
+                if (!localStorage.getItem("comments")) {
+                    localStorage.setItem("comments", "");
+                }
+
+                const allComments = localStorage.getItem("comments");
+                const x = document.getElementById("commentValue").value;
+                randomUser = Math.floor(Math.random() * 100);
+                comments = allComments + "<div>" + "User" + randomUser + ": " + x + "</div>";
+                document.getElementById("commentContainer").innerHTML = comments;
+
+                document.getElementById("commentValue").value = "";
+
+                localStorage.comments = comments;
+            }
+            
+        </script>
+
+    </html>
